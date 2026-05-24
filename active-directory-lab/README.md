@@ -85,6 +85,32 @@ This project demonstrates the creation of a Windows Active Directory home lab en
 Permissions were assigned to the HelpDesk security group to simulate enterprise file sharing and access control.
 
 ---
+## Department-Based Access Control
+
+This lab was expanded to simulate a small business environment using department-based Organizational Units, security groups, and shared folders.
+
+### Departments Created
+- HR
+- Finance
+- Sales
+
+### Security Groups
+- HRTeam
+- FinanceTeam
+- SalesTeam
+
+### Shared Resources
+- \\DC01\HRDocs
+- \\DC01\FinanceDocs
+- \\DC01\SalesDocs
+
+Access permissions were configured using both:
+- Share permissions
+- NTFS(Security) permissions
+
+Validation testing was performed from CLIENT01 to verify:
+- authorized access succeeded
+- unauthorized access was denied
 
 ## Skills Demonstrated
 
