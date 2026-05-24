@@ -155,6 +155,27 @@ Validation testing was performed from CLIENT01 to verify:
 ### IP Configuration Verification
 ![IP Configuration](screenshots/ipconfigVerification.png)
 
+### Organizational Units
+![Department OUs](./screenshots/department-OUs.png)
+
+### Department Users
+![Department Users](./screenshots/department-users.png)
+
+### Security Groups
+![Department Security Groups](./screenshots/department-groups.png)
+
+### Group Membership Configuration
+![Group Membership](./screenshots/group-membership-expanded.png)
+
+### Department Share Permissions
+![Department Share Permissions](./screenshots/department-share-permissions.png)
+
+### Authorized Access Validation
+![Successful HRDocs Access](./screenshots/successful-hrdocs-access.png)
+
+### Unauthorized Access Validation
+![Failed FinanceDocs Access](./screenshots/failed-financedocs-access.png)
+
 ---
 
 ## Key Takeaways
